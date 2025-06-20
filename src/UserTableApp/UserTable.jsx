@@ -40,6 +40,7 @@ export default function UserTable({ users }) {
 const Table = styled.table`
   border-spacing: 0;
   border-collapse: collapse;
+  border-radius: 50%;
 
   font-size: 0.9rem;
   color: ${colors.pink9};
