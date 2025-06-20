@@ -1,6 +1,7 @@
 import React from 'react';
 import "./App.css";
 import UserTableApp from './UserTableApp/App';
+import ButtonStyled from './UserTableApp/ButtonStyled';
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -13,6 +14,7 @@ const Container = styled.div`
 function App() {
   return (
     <Container>
+      <ButtonStyled/>
       <UserTableApp />
     </Container>
   );
